@@ -1,15 +1,15 @@
 # txt-to-sql-in-formatter
 
-A lightweight utility that converts a plain text file containing one value per line into a single SQL-friendly `IN (...)` list.  
-Um utilitário simples que converte um arquivo TXT com um valor por linha em uma lista formatada para `IN (...)` em SQL.  
-Un utilitaire léger qui convertit un fichier TXT contenant une valeur par ligne en une liste formatée pour `IN (...)` en SQL.
+A lightweight utility that quickly transforms a plain text list into a SQL-ready `IN (...)` clause.  
+Um utilitário simples para transformar rapidamente listas em TXT em uma cláusula `IN (...)` pronta para uso em SQL.  
+Un utilitaire permettant de transformer rapidement une liste TXT en une clause SQL `IN (...)` prête à l’emploi.
 
 ---
 
 ## 🇺🇸 English
 
 ### Overview
-This tool reads a text file (`ids.txt`) containing one ID per line and generates another file (`in.txt`) with all values formatted inside a single SQL `IN` clause.
+This tool reads a text file (`ids.txt`) containing one value per line and converts it into a single `IN (...)` list ready to paste directly into an SQL query.
 
 ### Example
 
@@ -60,7 +60,7 @@ MIT License
 ## 🇧🇷 Português (Brasil)
 
 ### Descrição
-Ferramenta simples que lê um arquivo (`ids.txt`) contendo um valor por linha e gera outro arquivo (`in.txt`) com todos os valores dentro de uma expressão `IN (...)` para SQL.
+Ferramenta que lê um arquivo (`ids.txt`) com um valor por linha e transforma tudo em uma única lista `IN (...)`, já formatada para colar direto em uma query SQL.
 
 ### Exemplo
 
@@ -95,7 +95,7 @@ MIT License
 ## 🇫🇷 Français
 
 ### Aperçu
-Cet outil lit un fichier (`ids.txt`) contenant une valeur par ligne et génère un second fichier (`in.txt`) contenant toutes les valeurs dans une clause SQL `IN (...)`.
+Cet outil lit un fichier (`ids.txt`) contenant une valeur par ligne et transforme le tout en une seule liste `IN (...)` prête à être utilisée dans une requête SQL.
 
 ### Exemple
 
